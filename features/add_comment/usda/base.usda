@@ -1,16 +1,5 @@
 #usda 1.0
 (
-	doc = "This is an example of adding a comment. You can add comments inside any pair of ()s"
-)
-
-def Sphere "MySphere" (
-	"I am a comment"
-	kind = "component"
-) {
-
-}
-#usda 1.0
-(
     doc = "This is an example of adding a comment. You can add comments inside any pair of ()s"
 )
 
@@ -19,5 +8,3 @@ def Sphere "SomeSphere" (
 )
 {
 }
-
-
