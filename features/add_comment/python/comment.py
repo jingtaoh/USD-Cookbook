@@ -10,6 +10,8 @@ from pxr import Usd, UsdGeom
 def main():
     """Run the main execution of the current script."""
     stage = Usd.Stage.CreateInMemory()
+    stage.GetRootLayer().documentation = (
+        "This is an example of adding a comment. You can add comments inside any pair of ()s")
 
     sphere = UsdGeom.Sphere.Define(stage, "/SomeSphere")
     sphere.GetPrim().SetMetadata("comment", "I am a comment")

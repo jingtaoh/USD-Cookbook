@@ -14,9 +14,13 @@ prim.SetMetadata("comment", "I am a comment")
 ### USD
 ```usda
 #usda 1.0
+(
+    doc = "This is an example of adding a comment. You can add comments inside any pair of ()s"
+)
 
-def Sphere "MySphere" (
+def Sphere "SomeSphere" (
     "I am a comment"
-) {
+)
+{
 }
 ```
