@@ -1,3 +1,6 @@
+#include <iostream>
+#include <string>
+
 // IMPORT THIRD-PARTY LIBRARIES
 #include <pxr/usd/usd/specializes.h>
 #include <pxr/usd/usd/stage.h>

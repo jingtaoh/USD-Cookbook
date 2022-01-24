@@ -25,6 +25,7 @@ def "thing"
     {
         def Sphere "NestedEvenMore"
         {
+            double radius = 4
         }
 
         def "SpecializedChild" (
