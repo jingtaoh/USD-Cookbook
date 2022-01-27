@@ -51,7 +51,7 @@ void test() {
     // XXX : Here's some code that cannot be done in the Python version
     // 1 - Defining your own debug symbol
     //
-    std::cout << "My custom symbol " << pxr::TfDebug::GetDebugSymbolDescription("MY_DEBUG_SYMBOL") << '\n';
+    std::cout << "My custom symbol: " << pxr::TfDebug::GetDebugSymbolDescription("MY_DEBUG_SYMBOL") << '\n';
     pxr::TfDebug::SetDebugSymbolsByName("MY_DEBUG_SYMBOL", true);
     TF_DEBUG_MSG(MY_DEBUG_SYMBOL, "Some debug message\n");
 
